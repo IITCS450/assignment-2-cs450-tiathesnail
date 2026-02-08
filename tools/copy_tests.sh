@@ -7,7 +7,7 @@ fi
 ASG="$1"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 XV6="$ROOT/xv6"
-SRC="$ROOT/assignments/$ASG/user"
+SRC="$ROOT/user"
 if [[ ! -d "$XV6" ]]; then
   echo "ERROR: xv6/ not found. Populate xv6 first."
   exit 1
